@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 @st.cache_resource
 def load_model():
     logger.info("Loading the model...")
-    return pipeline("image-classification", model="dima806/deepfake_vs_real_image_detection")
+    return pipeline("image-classification", model="Siku788/DeepFake")
 
 pipe = load_model()
 
